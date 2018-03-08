@@ -26,6 +26,7 @@ public class D1006 {
 
 	public static void main(String[] args) {
 		input = sc.nextInt();
+		sc.close();
 		a = input / 100;
 		b = (input - a * 100) / 10;
 		c = (input - a * 100 - b * 10);
